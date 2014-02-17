@@ -67,10 +67,20 @@ index b345af7,2f17f0f..0000000
 +++ b/README.md
 @@@ -1,3 -1,3 +1,7 @@@
   Hello World
-  
+
 ++<<<<<<< HEAD
  +This creates good stuff!
 ++=======
 + This creates prodestruction
 ++>>>>>>> production
+
+
+
+---
+
+
+## Considerations
+
+- When some changes are made in production, It is usually better to merge production into master (git checkout master; git merge production), because usually master has way more stuff than production. But it's fundamentally the same.
+
 
